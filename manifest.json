@@ -8,7 +8,7 @@
     },
     "options_page": "./options.html",
     "content_scripts": [{
-        "matches": ["https://*/*"],
+        "matches": ["https://github.cfpb.gov/*"],
         "js": ["jquery-1.9.1.min.js", "favicon.js"],
         "run_at": "document_idle"
     }]
